@@ -1,2 +1,32 @@
-# News-Scraping
-The problem we are trying to solve here is to extract relevant information from news articles, such as the title, author, publish date, and the main content of the article. This information can then be used for various purposes such as creating a personal news feed, analyzing trends in the news, or even creating a dataset for natural language processing tasks. In the news, or even creating a dataset for natural language processing tasks. In this article, we will look at how we can use the Python programming language, along with the Newspaper and Feedparser modules, to scrape and parse news articles from various sources.
+# News Scraper Using RSS Feeds and Newspaper3k
+
+This Python project scrapes news articles from an RSS feed using the `feedparser` and `newspaper3k` libraries. The extracted information includes the title, author(s), publish date, and content of each article.
+
+---
+
+## Features
+- Parse RSS feeds to get the latest news updates.
+- Extract and clean the full content of news articles.
+- Display structured information including titles, authors, and publishing dates.
+
+---
+
+## Requirements
+Ensure you have the following installed:
+- Python 3.6 or later
+- Required Python packages:
+  - `newspaper3k`
+  - `feedparser`
+  - `lxml_html_clean`
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/news-scraper.git
+   cd news-scraper
+
+##Install the required python packages
+pip install newspaper3k feedparser lxml_html_clean
