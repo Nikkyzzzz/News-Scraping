@@ -28,5 +28,6 @@ Ensure you have the following installed:
    git clone https://github.com/your-username/news-scraper.git
    cd news-scraper
 
-##Install the required python packages
+## Install the required python packages
+  ```bash
 pip install newspaper3k feedparser lxml_html_clean
